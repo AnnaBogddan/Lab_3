@@ -1,7 +1,7 @@
-x1 = float(input())
-y1 = float(input())
-x2 = float(input())
-y2 = float(input())
+x1 = float(input("Введите координату х первой точки"))
+y1 = float(input("Введите координату у первой точки"))
+x2 = float(input("Введите координату х второй точки"))
+y2 = float(input("Введите координату у первой точки"))
 
 def get_quarter(x, y):
     if x > 0 and y > 0:
